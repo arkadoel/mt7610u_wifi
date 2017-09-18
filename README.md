@@ -57,3 +57,10 @@ Other ralink implementations or references:
 - https://github.com/hro424/mt7610u_wifi
 
 My sincerest apologies for the dreadful commit graph, I'm still working on figuring out how git works and leveraging it properly. Thank you for your patience and I apologize for any issues I may have un-intentionally caused.
+
+H2. Aditional info
+```
+sudo ifconfig ra0 up
+sudo service network-manager stop
+sudo service network-manager start
+```
